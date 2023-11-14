@@ -10,9 +10,9 @@ import { LoadAdd } from 'components/Loader/Loader';
 import { avatarStyle } from 'pages/StylePages';
 
 export const options = {
-    width: '400px',
-    position: 'center-center',
-    timeout: 1500,
+    width: '300px',
+    position: 'right-bottom',
+    timeout: 2000,
     fontSize: '20px',
 };
 

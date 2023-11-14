@@ -4,4 +4,5 @@ export const boxFilterStyle = {
     justifyContent: 'space-between',
     gap: 5,
     alignItems: 'center',
+    borderRadius: 5
 };

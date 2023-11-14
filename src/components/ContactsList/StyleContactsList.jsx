@@ -3,6 +3,8 @@ export const boxListStyle = {
     mt: 1,
     display: 'flex',
     flexDirection: 'column',
+    bgcolor: 'rgba(25, 118, 210, 0.822)',
+    borderRadius: 5,
     alignItems: 'center'
 };
 

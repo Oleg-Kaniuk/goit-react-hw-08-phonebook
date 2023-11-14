@@ -92,7 +92,7 @@ export const ContactForm = () => {
                     type="text"
                     name="name"
                     value={name}
-                    title="Name may contain only letters, apostrophe, dash and spaces. For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan"
+                    title="Name may contain only letters and spaces."
                     required
                     onChange={onChangeInput}
                 />
@@ -106,7 +106,7 @@ export const ContactForm = () => {
                     type="tel"
                     name="number"
                     value={number}
-                    title="Phone number must be digits and can contain spaces, dashes, parentheses and can start with +"
+                    title="Phone number must be only digits"
                     required
                     onChange={onChangeInput}
                 />

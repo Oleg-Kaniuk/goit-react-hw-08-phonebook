@@ -1,5 +1,5 @@
 import { ContactForm } from "./ContactForm/ContactForm";
-import { ContactList } from "./ContactList/ContactList";
+import { ContactList } from "./ContactList/ContactsList";
 import { Filter } from "./Filter/Filter";
 import { Error } from "./Error/Error";
 import { Loader } from "./Loader/Loader";

@@ -5,7 +5,7 @@ import { Error } from "./Error/Error";
 import { Loader } from "./Loader/Loader";
 import { MainContainer } from "./App.styled";
 import { useSelector } from "react-redux";
-import { getPhoneBookValue, getIsLoading, getError } from "redux/phoneBookSlice";
+import { getPhoneBookValue, getIsLoading, getError } from "redux/phoneBook/phoneBookSlice";
 
 export const App = () => {
   const phoneBook = useSelector(getPhoneBookValue);

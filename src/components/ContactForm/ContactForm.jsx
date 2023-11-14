@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { getPhoneBookValue } from "redux/phoneBookSlice";
+import { getPhoneBookValue } from "redux/phoneBook/phoneBookSlice";
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import { Form, Input, Label, ButtonAdd } from "./ContactForm.styled";
 import { postContactThunk } from "api/api";
